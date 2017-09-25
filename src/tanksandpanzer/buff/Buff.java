@@ -5,4 +5,5 @@ public abstract class Buff {
 	int damage;
 	int heal;
 	int defense;
+	float expiryTime;
 }
