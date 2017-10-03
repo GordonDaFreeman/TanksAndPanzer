@@ -2,8 +2,9 @@ package tanksandpanzer.buff;
 
 public abstract class Buff {
 	int movementspeed;
-	int damage;
-	int heal;
-	int defense;
+	int attackdamage;
+	int regeneration;
+	int health;
+	int armor;
 	float expiryTime;
 }

@@ -1,13 +1,17 @@
 package tanksandpanzer.model;
-import tanksandpanzer.powerup
+import java.util.ArrayList;
+import java.util.List;
+
+import tanksandpanzer.buff.Buff;
+import tanksandpanzer.powerup.Powerup;
 
 public class Panzer {
-	int ms;
-	int att;
-	int def;
-	int hp;
-	int reg;
-	PowerUp pu;
-
+	int baseMovementspeed;
+	int baseAttackDamage;
+	int baseArmor;
+	int baseHealth;
+	int baseRegeneration;
+	Powerup powerup;
+	List<Buff> buffs = new ArrayList<Buff>();
 }
  
