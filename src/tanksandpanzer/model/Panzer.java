@@ -10,3 +10,4 @@ public class Panzer {
 	PowerUp pu;
 
 }
+ 
